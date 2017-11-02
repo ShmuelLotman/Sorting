@@ -3,7 +3,7 @@ function bubbleSort(arr) {
   for (var i = 0; i < arr.length; i++) {
     finalCount += swap(arr);
   }  
-  return finalCount;
+  return "swappedArr is " + arr + "and it's swapped" + finalCount + "times.";
 }
 
 function swap(arr) {
